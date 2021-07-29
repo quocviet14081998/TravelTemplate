@@ -1,0 +1,553 @@
+/* PC */
+@media (min-width:64em) {
+}
+
+/* Table & Mobile */
+@media (max-width : 63.9375em) {
+
+
+
+}
+/* Tablet */ 
+@media (min-width: 46.25em) and (max-width:63.9375em) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        display: none;
+    }
+    .header-nav {
+        display: none;
+    }
+
+    .container-menu::before{
+        right: 0;
+        top: 0;
+    }
+
+    .container-menu__list {
+        display: none;
+    }
+
+    .container-nav-tablet {
+        display: block;
+        /* margin-top: 20px; */
+    }
+
+    .container-nav__text-tablet {
+        display: block;
+    }
+
+    .container-banners {
+        height: 500px;
+    }
+
+    .container-sliders {
+        width: 100%;
+        height: 432px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .container-sliders__search {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 718px;
+        height: 412px;
+    }
+
+    .container-sliders__option {
+        width: 100%;
+        height: 260px;
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container-sliders__insert {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0px ;
+    }
+    .container-sliders__destination {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0px ;
+    }
+    .container-sliders__typologies {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0px ;
+    }
+    .container-sliders__btn {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0px ;
+    }
+
+    /* End Container Banners */
+    /* container-promotions */
+
+    .container-promotions {
+        width: 100%;
+    }
+
+    .container-promotions__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .container-promotions__img {
+        height: 360px;
+        width: 100%;
+    }
+
+    .container-promotions-button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-promotions-btn_all {
+
+        margin: 10px 10px;
+    }
+
+    /* End container-promotions */
+
+    /* container-summer__promotion */
+
+    .container-summer__promotion {
+        width: 100%;
+    }
+
+    /* End container-summer__promotion  */
+
+    /* container-our__destinations  */
+    .container-our__destinations {
+        width: 100%;
+    }
+
+    .container-our__destinations-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .container-our__destinations-img {
+        width: 100%;
+        height: 1046px;
+        margin-bottom: 12px;
+    }
+
+    /*  End container-our__destinations  */
+
+    /* container-our__destinations-banner */
+
+    .container-our__destinations-banner {
+        width: 100%;
+        height: 644px;
+    }
+
+    .container-our__destinations-banner__btn {
+        display: flex;
+        align-items: center;
+    }
+
+    .container-our__destinations-banner__btn__des {
+        margin:0;
+    }
+
+    .container-our__destinations-banner__btn__text {
+        font-size: 32px;
+    }
+    .container-our__destinations-btn__des {
+        font-size: 12px;
+        padding: 15px 15px;
+    }
+
+    /* End container-our__destinations-banner */
+
+    /* container-packages */
+    .container-packages {
+        width: 100%;
+        
+    }
+
+    .container-packages-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-packages-content__left {
+        width: 748px;
+        height: 667px;
+        padding: 15px;
+    }
+
+    .container-packages-contact {
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .container-packages-contact__send,
+    .container-packages-contact__email,
+    .container-packages-contact__guests,
+    .container-packages-contact__select,
+    .container-packages-contact__message,
+    .container-packages-contact__name {
+        width: 680px;
+        padding: 10px 35px;
+    }
+
+    .container-packages-content__right {
+        height: 2160px;
+    }
+
+    .container-packages-content__info-content {
+        display: flex;
+        flex-direction: column;
+        width: 730px;
+        height: 705px;
+        margin: 15px;
+        border: 1px solid #ccc;
+    }
+
+    .container-packages-content__img {
+        width: 100%;
+        height: 480px;
+    }
+
+    .container-packages-content__travel {
+        width: 100%;
+        border:none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-packages-content__travel-content {
+        width: 100%;
+    }
+
+    .container-packages-content__price {
+        display: none;
+    }
+
+    .container-packages-content__price-short{
+        display: block;
+    }
+
+    /* End container-packages-content */
+    /* container-contact */
+    
+    .container-contact {
+        width: 100%;
+        height: 502px;
+    }
+
+    .container-contact__content {
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .container-contact__support {
+        margin: 35px 10px;
+    }
+
+    .container-contact__connect {
+        margin: 35px 10px;
+    }
+
+    .container-contact__newsletter {
+        margin: 35px 10px;
+    }
+
+    .container-contact__input input {
+        width: 430px;
+        padding: 10px 20px;
+    }
+
+    .container-contact__input button {
+        width: 287px;
+        padding: 15px 30px;
+    }
+
+
+    .footer {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width:46.1875em) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        display: none;
+    }
+    .header-nav {
+        display: none;
+    }
+
+    .container-menu::before{
+        right: 0;
+        top: 0;
+    }
+
+    /* Container - banner */
+    .container-menu__list {
+        display: none;
+    }
+
+    .container-nav-tablet {
+        display: block;
+        /* margin-top: 20px; */
+    }
+
+    .container-nav__text-tablet {
+        display: block;
+    }
+
+    .container-banners{
+        height: 500px ;
+    }
+
+    .container-sliders {
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .container-sliders__search {
+        position: absolute;
+        top: 100px;
+        width: 300px;
+        padding: 0 15px;
+    }
+
+    .container-sliders__info {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+    }
+
+    .container-sliders__quick-search {
+        background-color: #1bbc9b;
+        width: 100%;
+    }
+
+    .container-sliders__advanced {
+        width: 100%;
+        border-top: 1px solid #ccc;
+    }
+
+    .container-sliders__option {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+    .container-sliders__destination,
+    .container-sliders__typologies,
+    .container-sliders__btn,
+    .container-sliders__insert {
+        width: 230px;
+    }
+
+    /* container-summer__promotion */
+    
+    .container-promotions {
+        width: 100%;
+    }
+
+    .container-promotions__box-content {
+        margin: 10px auto;
+        width: 270px;
+    }
+
+    .container-promotions__img {
+        height: 180px;
+    }
+
+    .container-promotions-button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-promotions-btn_all {
+        margin: 20px 10px;
+    }
+
+    /* container-summer__promotion */
+    .container-summer__promotion {
+        width: 100%;
+        height: 490px;
+    }
+
+    .container-summer__promotion-text {
+        /* margin-top: 50px; */
+    }
+
+    .container-summer__promotion-space {
+
+    }
+
+    .container-summer__promotion-heading {
+        text-align: center;
+        font-size: 36px;
+        line-height: 36px;
+        margin: 0;
+    }
+
+    .container-summer__promotion-text_1 {
+        text-align: center;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .container-summer__promotion-btn {
+        padding: 15px 24px;
+        margin: 0;
+        font-weight: 300;
+    }
+
+    /* container-our__destinations */
+    .container-our__destinations {
+        text-align: center;
+    }
+
+    .container-our__destinations-img {
+        margin-bottom: 20px;
+        width: 270px;
+    }
+
+    /* container-our__destinations-banner */
+
+    .container-our__destinations-banner {
+        height: 650px;
+    }
+
+
+    .container-our__destinations-banner__btn {
+        display: flex;
+    }
+
+    /*  container-packages */
+
+    .container-packages {
+        width: 100%;
+    }
+
+    .container-packages-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-packages-content__travel {
+        width: 100%;
+        border:none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-packages-content__travel-content {
+        width: 100%;
+    }
+
+    .container-packages-content__left {
+        height: 700px;
+        width: 100%;
+        padding: 15px;
+        position: relative;
+    }
+
+    .container-packages-contact__btn {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+    }
+
+    .container-packages-contact__request {
+        width: 100%;
+        background-color: #1bbc9b;
+
+    }
+
+    .container-packages-contact__phone {
+        width: 100%;
+        border-top: 1px solid #ccc;
+    }
+
+    .container-packages-content__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-packages-content__info-content {
+        width: 100%;
+        height: 460px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    .container-packages-content__travel {
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+
+    .container-packages-content__price {
+        display: none;
+    }
+
+    .container-packages-content__price-short {
+        display: block;
+    }
+
+    .container-packages-content__img {
+        height: 180px;
+        width: 100%;
+    }
+
+    .container-contact__content {
+        width: 100%;
+        height: 545px;
+        display: flex;
+        padding: 15px;
+    }
+
+    .container-contact__input {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-contact__input input {
+        width: 280px;
+    }
+
+    .container-contact__input button {
+        width: 280px;
+    }
+
+    /* footer */
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
