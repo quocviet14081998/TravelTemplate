@@ -1,0 +1,90 @@
+/* Mobile & Tablet */
+@media (max-width: 1240px) {
+    .container-menu-love,
+    .container-menu-travel,
+    .container-menu__list,
+    .header {
+        display: none;
+    }
+
+    .container-nav__text-tablet {
+        display: flex;
+    }
+
+    .container-menu {
+        height: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1239px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    .container-banners {
+        height: 500px;
+    }
+
+    .container-sliders {
+        height: 200px;
+    }
+
+    .container-sliders__search {
+        display: flex;
+        flex-direction: column;
+        bottom: -148%;
+    }
+
+    .container-sliders__info,
+    .container-sliders__option {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .container-sliders__quick-search {
+        background-color: #1bbc9b;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .container-sliders__advanced {
+        border-bottom: 1px solid #ccc;
+    }
+
+
+    .container-sliders__destination,
+    .container-sliders__typologies,
+    .container-sliders__btn,
+    .container-sliders__insert {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .container-contact__content {
+        padding: 20px;
+    }
+
+    .container-contact__number {
+        padding-bottom: 0;
+    }
+
+    .container-contact__input {
+        flex-direction: column;
+    }
+
+    .container-contact__input button,
+    .container-contact__input input {
+        width: 100%;
+    }
+
+    .footer p {
+        text-align: center;
+        padding: 20px;
+        font-size: 18px;
+        color: #ccc;
+    }
+    
+}
