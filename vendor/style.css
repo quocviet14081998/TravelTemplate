@@ -61,7 +61,7 @@
     left: -50%;
     transform: translateX(-32%);
     display: none;
-    z-index: 10;
+    z-index: 50;
 }
 
 .header-nav__item--contact__notify:hover .header-nav__item--contact__message {
@@ -99,7 +99,10 @@
     display: flex;
     height: 70px;
     padding: 10px;
+}
 
+.header-nav__item--contact__message-item:hover {
+    border: 1px solid #ccc;
 }
 
 .header-nav__item--contact__message-img {
@@ -189,6 +192,7 @@
 
 .container-menu__link-submenu  {
     position: relative;
+    z-index: 45;
 }
 
 .container-menu__link-submenu:hover .container-menu-submenu_list {
@@ -357,6 +361,7 @@
     background-color: #4a515b;
     width: 25%;
     margin: 10px;
+    outline: none;
 }
 
 .container-sliders__btn {
@@ -366,6 +371,11 @@
     background-color: #1bbc9b;
     width: 25%;
     margin: 10px;
+    cursor: pointer;
+}
+
+.container-sliders__btn:hover {
+    opacity: 0.8;
 }
 
 /* Container Top Promotions */
@@ -453,11 +463,15 @@
 .container-promotions__box-heading {
     display: block;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 20px;
     font-size: 24px;
     color: #fff;
     background-color: #434a54;
     cursor: pointer;
+}
+
+.container-promotions__box-heading:hover {
+    opacity: 0.8;
 }
 
 .container-promotions__box-info {
@@ -467,7 +481,7 @@
 
 .container-promotions__box-info-1 {
     width: 50%;
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-size: 18px;
     color: #fff;
     background-color: #ba71da;
@@ -477,7 +491,7 @@
 
 .container-promotions__box-info-2 {
     width: 50%;
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-size: 18px;
     color: #fff;
     background-color: #c17fde;
@@ -494,7 +508,7 @@
 }
 
 .container-promotions__box-text {
-    padding: 30px ;
+    padding: 20px ;
     font-size: 18px;
     line-height: 24px ;
 }
@@ -502,11 +516,17 @@
 .container-promotions-btn {
     width: 100px;
     height: 50px;
-    margin: 0 30px 20px;
+    margin: 0 20px 20px;
     border: 1px solid #ccc;
     color: #ccc;
     background-color: #fff;
     cursor: pointer;
+}
+
+.container-promotions-btn:hover {
+    background-color: rgb(185, 185, 185);
+    color: #fff;
+
 }
 
 .container-promotions-button {
@@ -523,6 +543,10 @@
     background-color: #434a54;
     border: none;
     cursor: pointer;
+}
+
+.container-promotions-btn_all:hover {
+    opacity: 0.5;
 }
 
 /* Container Summer Promotion */
@@ -588,6 +612,11 @@
     background-color: #14b9d5;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.container-summer__promotion-btn:hover {
+    opacity: 0.8;
 }
 
 /* Container Our Destinations */
@@ -747,6 +776,8 @@
     border: none;
     background-color: #434a54;
     text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .container-packages-contact__phone {
@@ -757,6 +788,8 @@
     border: none;
     background-color: #1bbc9b;
     text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .container-packages-contact__phone i {
@@ -778,7 +811,7 @@
     margin: 20px 25px 10px;
     background-color: #4a515b;
     border: none;
-    
+    outline: none;
 }
 
 .container-packages-contact__email,
@@ -792,7 +825,7 @@
     margin: 10px 25px;
     background-color: #4a515b;
     border: none;
-    
+    outline: none;
 }
 
 .container-packages-contact__send {
@@ -803,6 +836,12 @@
     background-color: #1bbc9b;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-packages-contact__send:hover {
+    opacity: 0.9;
 }
 
 .container-packages-content__info {
@@ -877,6 +916,8 @@
     color: #fff;
     background-color: #f3a46b;
     border: 1px solid #fff;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .container-packages-content__price-short {
@@ -920,6 +961,10 @@
     cursor: pointer;
 }
 
+.container-contact__icon i:hover {
+    opacity: 0.8;
+}
+
 
 .container-contact__number {
     padding-top: 30px;
@@ -940,6 +985,8 @@
     width: 70%;
     border: none;
     padding: 15px 20px;
+    outline: none;
+    color: #fff;
 }
 
 .container-contact__input button {
@@ -950,6 +997,12 @@
     padding: 15px 30px;
     color: #fff;
     text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-contact__input button:hover {
+    opacity: 0.8;
 }
 
 /* Footer */
